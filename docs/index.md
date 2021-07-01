@@ -1,5 +1,7 @@
 # bitcoin-doc
 
+Waddup.
+
 ## why bitcoin?
 
 ## what is bitcoin?
