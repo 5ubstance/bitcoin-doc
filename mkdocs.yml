@@ -1,7 +1,13 @@
 site_name: My Docs
-site_url: https://example.com/
+site_url: https://5ubstance.github.io/bitcoin-doc/
 theme:
   name: material
   palette:
     scheme: slate
     primary: orange
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/5ubstance
+    - icon: fontawesome/brands/btc
+      link: https://5ubstance.github.io/bitcoin-doc/assets/bitcoin.pdf
