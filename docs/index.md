@@ -16,7 +16,23 @@ To grok bitcoin, you have to be minimally curious of course, but you almost need
 
 ## why bitcoin?
 
+In my opinion, the single most important feature of bitcoin is its decentralization.
+
+Consensus can be enforced via decentralization.
+
+Unstoppable money. 
+
 ## what is bitcoin?
+
+## bitcoin vs gold
+
+## layers
+
+Lightning network.
+
+## fungibility
+
+To be successfully used as a currency, one of the qualities often 
 
 ## the fud
 
@@ -30,19 +46,21 @@ Taken from [Forbes](https://www.forbes.com/sites/haileylennon/2021/01/19/the-fal
 
 ### government will kill it
 
-### environment
+### it uses too much energy
+
+### it's destroying the environment
 
 ### nobody uses it
 
-### bitcoin vs gold
+### it's slow
 
-### slow
+### it's volatile
 
-### layers
+Yes. Bitcoin is volatile.
 
-### volatility
+It is however fairly young when compared to other assets (gold) or currencies (usd). As such, it is still going through a phase of price discovery where the price will fluctuate according to the its perceived value by economic actors.
 
-### fungibility
+Deal with it.
 
 ### 
 
