@@ -54,13 +54,22 @@ Taken from [Forbes](https://www.forbes.com/sites/haileylennon/2021/01/19/the-fal
 
 ### it's slow
 
+### it's risky
+
 ### it's volatile
 
-Yes. Bitcoin is volatile.
+Yes. Bitcoin is volatile (when compared to usd for instance).
 
-It is however fairly young when compared to other assets (gold) or currencies (usd). As such, it is still going through a phase of price discovery where the price will fluctuate according to the its perceived value by economic actors.
+It is however fairly young when compared to other assets (gold) or currencies (usd). As such, it is still going through a phase of price discovery where the price will fluctuate according to its perceived value by economic actors.
 
 Deal with it.
 
-### 
+On a long enough timeframe, bitcoin still has infinite upside.
 
+## Readings
+
+- https://medium.com/@francispouliot/cry-harder-31a599a2e343
+- https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1
+- https://medium.com/@nic__carter/a-most-peaceful-revolution-8b63b64c203e
+- https://www.microstrategy.com/en/bitcoin/documents/stone-ridge-2020-shareholder-letter
+- 
