@@ -36,7 +36,7 @@ To be successfully used as a currency, one of the qualities often
 
 ## the fud
 
-### used by criminals
+### it's mostly used by criminals
 
 Taken from [Forbes](https://www.forbes.com/sites/haileylennon/2021/01/19/the-false-narrative-of-bitcoins-role-in-illicit-activity) :
 
@@ -44,13 +44,37 @@ Taken from [Forbes](https://www.forbes.com/sites/haileylennon/2021/01/19/the-fal
 >
 > According to the UN, it is estimated that between 2% and 5% of global GDP ($1.6 to $4 trillion) annually is connected with money laundering and illicit activity. This means that criminal activity using cryptocurrency transactions is much smaller than fiat currency and its use is going down year by year.
 
-### government will kill it
+Also, it seems to me a free (as in freedom) and transparent ledger might not be the best system to conduct criminal activities.
+
+### the government will kill it
+
+No.
+
+They can't. How would they?
+
+Laws?
+
+First, bitcoin cares little about laws. Furthermore, since the network is global, any law which cannot be orchestrated globally in unison just means arbitrage will happen between countries and network actors will be incentivized to move to more bitcoin-favorable nation-states.
+
+Stopping the data flow?
+
+At this stage in the game, to stop bitcoin, you would pretty much need to stop the flow of information on which the bitcoin nodes rely. This means stopping the internet or actively filtering it in a way nodes and miners cannot continue working. The wide availability of technologies like Tor and VPNs means circumventing this filtering is easy.
+
+This is not happening but they are welcome to try.
+
+Historically though, attacks on the bitcoin network have mostly worked to its advantage, making it more robust (anti-fragile as Taleb might say...) in the long run.
 
 ### it uses too much energy
 
+What is too much?
+
 ### it's destroying the environment
 
+More than the current system?
+
 ### nobody uses it
+
+### it's inefficient
 
 ### it's slow
 
@@ -68,8 +92,8 @@ On a long enough timeframe, bitcoin still has infinite upside.
 
 ## Readings
 
-- https://medium.com/@francispouliot/cry-harder-31a599a2e343
-- https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1
-- https://medium.com/@nic__carter/a-most-peaceful-revolution-8b63b64c203e
-- https://www.microstrategy.com/en/bitcoin/documents/stone-ridge-2020-shareholder-letter
-- 
+- [@francispouliot/cry-harder](https://medium.com/@francispouliot/cry-harder-31a599a2e343)
+- [@vijayboyapati/the-bullish-case-for-bitcoin](https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1)
+- [@nic__carter/a-most-peaceful-revolution](https://medium.com/@nic__carter/a-most-peaceful-revolution-8b63b64c203e)
+- [The Stone Ridge 2020 Shareholder Letter](https://www.microstrategy.com/en/bitcoin/documents/stone-ridge-2020-shareholder-letter)
+- [powering-the-beast](https://physicsworld.com/a/powering-the-beast-why-we-shouldnt-worry-about-the-internets-rising-electricity-consumption/)
