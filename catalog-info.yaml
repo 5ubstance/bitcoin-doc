@@ -4,6 +4,7 @@ metadata:
   name: bitcoin-doc
   annotations:
     github.com/project-slug: 5ubstance/bitcoin-doc
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: other
   lifecycle: unknown
