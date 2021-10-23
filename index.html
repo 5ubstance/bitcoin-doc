@@ -1,0 +1,888 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://5ubstance.github.io/bitcoin-doc/">
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.4">
+    
+    
+      
+        <title>My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.db9e7362.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.3f5d1f46.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffa724">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bitcoin-doc" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              bitcoin-doc
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          bitcoin-doc
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        bitcoin-doc
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-bitcoin" class="md-nav__link">
+    Understanding bitcoin
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-big-questions" class="md-nav__link">
+    The big questions
+  </a>
+  
+    <nav class="md-nav" aria-label="The big questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-does-bitcoin-exist" class="md-nav__link">
+    Why does Bitcoin exist?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-bitcoin" class="md-nav__link">
+    What is bitcoin?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analogies-and-comparisons" class="md-nav__link">
+    Analogies and comparisons
+  </a>
+  
+    <nav class="md-nav" aria-label="Analogies and comparisons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bitcoin-vs-gold" class="md-nav__link">
+    bitcoin vs gold
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bitcoin-as-layers" class="md-nav__link">
+    bitcoin as layers
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-qualities-of-money-currency" class="md-nav__link">
+    The qualities of money (currency?)
+  </a>
+  
+    <nav class="md-nav" aria-label="The qualities of money (currency?)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fungibility" class="md-nav__link">
+    Fungibility
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#store-of-value" class="md-nav__link">
+    Store of value
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medium-of-exchange" class="md-nav__link">
+    Medium of exchange
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divisibility" class="md-nav__link">
+    Divisibility
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-fud" class="md-nav__link">
+    the fud
+  </a>
+  
+    <nav class="md-nav" aria-label="the fud">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#its-mostly-used-by-criminals" class="md-nav__link">
+    it's mostly used by criminals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-government-will-kill-it" class="md-nav__link">
+    the government will kill it
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#it-uses-too-much-energy" class="md-nav__link">
+    it uses too much energy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#its-destroying-the-environment" class="md-nav__link">
+    it's destroying the environment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nobody-uses-it" class="md-nav__link">
+    nobody uses it
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#its-inefficientslow" class="md-nav__link">
+    it's inefficient/slow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#its-too-riskyvolatile" class="md-nav__link">
+    it's too risky/volatile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#its-too-expensive" class="md-nav__link">
+    it’s too expensive
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-cant-buy-it-anymore" class="md-nav__link">
+    you can’t buy it anymore
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theres-so-many-bitcoins-to-chose-from-i-dont-know-which-one-to-buy" class="md-nav__link">
+    there's so many bitcoins to chose from, I don't know which one to buy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bitcoin-gets-hacked-all-the-time" class="md-nav__link">
+    bitcoin gets hacked all the time
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-can-lose-all-your-bitcoin-if-you-lose-your-password" class="md-nav__link">
+    you can lose all your Bitcoin if you lose your password
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#readingssources" class="md-nav__link">
+    Readings/Sources
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="code/" class="md-nav__link">
+        code
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="onboard/" class="md-nav__link">
+        onboard
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-bitcoin" class="md-nav__link">
+    Understanding bitcoin
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-big-questions" class="md-nav__link">
+    The big questions
+  </a>
+  
+    <nav class="md-nav" aria-label="The big questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-does-bitcoin-exist" class="md-nav__link">
+    Why does Bitcoin exist?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-bitcoin" class="md-nav__link">
+    What is bitcoin?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analogies-and-comparisons" class="md-nav__link">
+    Analogies and comparisons
+  </a>
+  
+    <nav class="md-nav" aria-label="Analogies and comparisons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bitcoin-vs-gold" class="md-nav__link">
+    bitcoin vs gold
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bitcoin-as-layers" class="md-nav__link">
+    bitcoin as layers
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-qualities-of-money-currency" class="md-nav__link">
+    The qualities of money (currency?)
+  </a>
+  
+    <nav class="md-nav" aria-label="The qualities of money (currency?)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fungibility" class="md-nav__link">
+    Fungibility
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#store-of-value" class="md-nav__link">
+    Store of value
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medium-of-exchange" class="md-nav__link">
+    Medium of exchange
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divisibility" class="md-nav__link">
+    Divisibility
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-fud" class="md-nav__link">
+    the fud
+  </a>
+  
+    <nav class="md-nav" aria-label="the fud">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#its-mostly-used-by-criminals" class="md-nav__link">
+    it's mostly used by criminals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-government-will-kill-it" class="md-nav__link">
+    the government will kill it
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#it-uses-too-much-energy" class="md-nav__link">
+    it uses too much energy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#its-destroying-the-environment" class="md-nav__link">
+    it's destroying the environment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nobody-uses-it" class="md-nav__link">
+    nobody uses it
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#its-inefficientslow" class="md-nav__link">
+    it's inefficient/slow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#its-too-riskyvolatile" class="md-nav__link">
+    it's too risky/volatile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#its-too-expensive" class="md-nav__link">
+    it’s too expensive
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-cant-buy-it-anymore" class="md-nav__link">
+    you can’t buy it anymore
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theres-so-many-bitcoins-to-chose-from-i-dont-know-which-one-to-buy" class="md-nav__link">
+    there's so many bitcoins to chose from, I don't know which one to buy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bitcoin-gets-hacked-all-the-time" class="md-nav__link">
+    bitcoin gets hacked all the time
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-can-lose-all-your-bitcoin-if-you-lose-your-password" class="md-nav__link">
+    you can lose all your Bitcoin if you lose your password
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#readingssources" class="md-nav__link">
+    Readings/Sources
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="bitcoin-doc">bitcoin-doc</h1>
+<h2 id="understanding-bitcoin">Understanding bitcoin</h2>
+<p>One of the problems with innovations like bitcoin is that, on the surface, it can look like one (or a combination) of the following things :</p>
+<ul>
+<li>a risky and/or volatile investment </li>
+<li>an environmental catastrophe </li>
+<li>fake money, a scam, a ponzi or a “greater fool” trap</li>
+<li>a system only used by criminals</li>
+</ul>
+<p>In this day and age, most of us have developed heuristics to filter bullshit. In most cases, those filters will dismiss bitcoin as a scam right from the start. 
+If this is your assessment after having had a first look I can’t fault you. I totally understand. I went through the same thing.</p>
+<p>To grok bitcoin, you have to be minimally curious of course, but you almost need to take a leap of faith and literally “trust” that whoever or whatever got you to look into it actually did so in good faith and had your best interest in mind. Unfortunately, the current state of the world we live in means that, since trust has mostly disappeared (thanks to the ever growing number of spam emails, telemarketers, financial scams, fake news and the like), the effort first required to successfully dive in and see through the ocean of bullshit is tremendous. Even more so today with the advent of the shitcoin economy (but that is a whole other discussion). And it can feel like it's getting harder by the day.</p>
+<h2 id="the-big-questions">The big questions</h2>
+<h3 id="why-does-bitcoin-exist">Why does Bitcoin exist?</h3>
+<p>The main goal of bitcoin is to separate money from the state (read : government) and the only reason it really has a chance to do so is beacause of a little thing called decentralization which is, in my opinion, bitcoin's most important feature.</p>
+<p>Decentralization is the main reason we can think of bitcoin as "unstoppable money". A money where you are free to make the transaction everybody (government but also businesses and individuals) says you can't make.</p>
+<h3 id="what-is-bitcoin">What is bitcoin?</h3>
+<h2 id="analogies-and-comparisons">Analogies and comparisons</h2>
+<p>When first trying to understand bitcoin, analogies can be valuable tools to build models from. The next </p>
+<h3 id="bitcoin-vs-gold">bitcoin vs gold</h3>
+<h3 id="bitcoin-as-layers">bitcoin as layers</h3>
+<p>TODO : Lightning network.</p>
+<h2 id="the-qualities-of-money-currency">The qualities of money (currency?)</h2>
+<h3 id="fungibility">Fungibility</h3>
+<p>TODO : One of the qualities often mentioned when attempting to define what a functioning currency might be is fungibility.</p>
+<h3 id="store-of-value">Store of value</h3>
+<p>TODO</p>
+<h3 id="medium-of-exchange">Medium of exchange</h3>
+<p>TODO</p>
+<h3 id="divisibility">Divisibility</h3>
+<p>TODO</p>
+<h2 id="the-fud">the fud</h2>
+<h3 id="its-mostly-used-by-criminals">it's mostly used by criminals</h3>
+<p>Taken from <a href="https://www.forbes.com/sites/haileylennon/2021/01/19/the-false-narrative-of-bitcoins-role-in-illicit-activity">Forbes</a> :</p>
+<blockquote>
+<p>The majority of cryptocurrency is not used for criminal activity. According to an excerpt from Chainalysis’ 2021 report, in 2019, criminal activity represented 2.1% of all cryptocurrency transaction volume (roughly $21.4 billion worth of transfers). In 2020, the criminal share of all cryptocurrency activity fell to just 0.34% ($10.0 billion in transaction volume). </p>
+<p>According to the UN, it is estimated that between 2% and 5% of global GDP ($1.6 to $4 trillion) annually is connected with money laundering and illicit activity. This means that criminal activity using cryptocurrency transactions is much smaller than fiat currency and its use is going down year by year.</p>
+</blockquote>
+<p>Also, it seems to me a free (as in freedom) and transparent ledger might not be the best system to conduct criminal activities.</p>
+<h3 id="the-government-will-kill-it">the government will kill it</h3>
+<p>No.</p>
+<p>They can't. How would they?</p>
+<p>Laws?</p>
+<p>First, bitcoin cares little about laws. Furthermore, since the network is global, any law which cannot be orchestrated globally in unison just means arbitrage will happen between countries and network actors will be incentivized to move to more bitcoin-favorable nation-states.</p>
+<p>Stopping the data flow?</p>
+<p>At this stage in the game, to stop bitcoin, you would pretty much need to stop the flow of information on which the bitcoin nodes rely. This means stopping the internet or actively filtering it in a way nodes and miners cannot continue working. The wide availability of technologies like Tor and VPNs means circumventing this filtering is easy.</p>
+<p>This is not happening but they are welcome to try.</p>
+<p>Historically though, attacks on the bitcoin network have mostly worked to its advantage, making it more robust (anti-fragile as Taleb might say...) in the long run.</p>
+<h3 id="it-uses-too-much-energy">it uses too much energy</h3>
+<p>TODO : What is too much?</p>
+<h3 id="its-destroying-the-environment">it's destroying the environment</h3>
+<p>TODO : More than the current system?</p>
+<h3 id="nobody-uses-it">nobody uses it</h3>
+<p>TODO</p>
+<h3 id="its-inefficientslow">it's inefficient/slow</h3>
+<p>TODO</p>
+<h3 id="its-too-riskyvolatile">it's too risky/volatile</h3>
+<p>Yes. Bitcoin is volatile (when compared to usd for instance).</p>
+<p>It is however fairly young when compared to other assets (gold) or currencies (usd). As such, it is still going through a phase of price discovery where the price will fluctuate according to its perceived value by economic actors.</p>
+<p>Deal with it.</p>
+<p>On a long enough timeframe, bitcoin still has infinite upside.</p>
+<p>TODO : Source for "Also, on a risk-adjusted basis, it is currently one of the best investment you can make."</p>
+<h3 id="its-too-expensive">it’s too expensive</h3>
+<p>People often think they have to buy a "whole" bitcoin but that is just not true. What they don't know is that bitcoins are subdivisible down to the eight (8) decimal point (e.g. 0.00000001).</p>
+<p>By the way, that specific unit is called a "satoshi".</p>
+<p>This means that people wanting to buy bitcoin can buy whatever amount they want. They most certainly do not have to shell out 50k USD all at once to get their hands on a full bitcoin. They can just buy whatever they need. And they will do so at the price they deserve.</p>
+<h3 id="you-cant-buy-it-anymore">you can’t buy it anymore</h3>
+<p>TODO</p>
+<h3 id="theres-so-many-bitcoins-to-chose-from-i-dont-know-which-one-to-buy">there's so many bitcoins to chose from, I don't know which one to buy</h3>
+<p>There is only one bitcoin. Its ticker symbol is BTC.</p>
+<p>This can be very confusing for newcomers to the space and is a subject of much controversy, even for experts. Bitcoin Cash, Bitcoin SV, Bitcoin Gold... These other "versions" (forks) of bitcoin are all really just copies, even though people familiar with them will often tout their supremacy over bitcoin for x and y reasons. Remember, there is a reason why they trade at a lower valuation (price) : they are a lot less valuable.</p>
+<p>This could seem attractive to some at first : an investment in those "coins" would mean more coin for the same fiat amount (USD, CAD, ...), right?</p>
+<p>Wrong.</p>
+<p>These other coins are :</p>
+<ul>
+<li>incompatible with the real bitcoin blockchain</li>
+<li>less secure</li>
+<li>less liquid</li>
+</ul>
+<p>Remember : there is only one bitcoin and its ticker symbol is BTC.</p>
+<h3 id="bitcoin-gets-hacked-all-the-time">bitcoin gets hacked all the time</h3>
+<p>TODO</p>
+<h3 id="you-can-lose-all-your-bitcoin-if-you-lose-your-password">you can lose all your Bitcoin if you lose your password</h3>
+<p>TODO</p>
+<h2 id="readingssources">Readings/Sources</h2>
+<ul>
+<li><a href="https://medium.com/@francispouliot/cry-harder-31a599a2e343">@francispouliot / cry-harder</a></li>
+<li><a href="https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1">@vijayboyapati / the-bullish-case-for-bitcoin</a></li>
+<li><a href="https://medium.com/@nic__carter/a-most-peaceful-revolution-8b63b64c203e">@nic__carter / a-most-peaceful-revolution</a></li>
+<li><a href="https://www.microstrategy.com/en/bitcoin/documents/stone-ridge-2020-shareholder-letter">The Stone Ridge 2020 Shareholder Letter</a></li>
+<li><a href="https://physicsworld.com/a/powering-the-beast-why-we-shouldnt-worry-about-the-internets-rising-electricity-consumption/">powering-the-beast</a></li>
+<li><a href="https://www.businessinsider.com/dan-kaminsky-highlights-flaws-bitcoin-2013-4">Dan Kaminsky / I tried hacking bitcoin and I failed</a></li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+      
+        
+        <a href="code/" class="md-footer__link md-footer__link--next" aria-label="Next: code" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              code
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://twitter.com/5ubstance" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://5ubstance.github.io/bitcoin-doc/assets/bitcoin.pdf" target="_blank" rel="noopener" title="5ubstance.github.io" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M310.204 242.638c27.73-14.18 45.377-39.39 41.28-81.3-5.358-57.351-52.458-76.573-114.85-81.929V0h-48.528v77.203c-12.605 0-25.525.315-38.444.63V0h-48.528v79.409c-17.842.539-38.622.276-97.37 0v51.678c38.314-.678 58.417-3.14 63.023 21.427v217.429c-2.925 19.492-18.524 16.685-53.255 16.071L3.765 443.68c88.481 0 97.37.315 97.37.315V512h48.528v-67.06c13.234.315 26.154.315 38.444.315V512h48.528v-68.005c81.299-4.412 135.647-24.894 142.895-101.467 5.671-61.446-23.32-88.862-69.326-99.89zM150.608 134.553c27.415 0 113.126-8.507 113.126 48.528 0 54.515-85.71 48.212-113.126 48.212v-96.74zm0 251.776V279.821c32.772 0 133.127-9.138 133.127 53.255-.001 60.186-100.355 53.253-133.127 53.253z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.1e84347e.min.js"></script>
+      
+    
+  </body>
+</html>

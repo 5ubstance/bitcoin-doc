@@ -1,0 +1,565 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://5ubstance.github.io/bitcoin-doc/onboard/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.4">
+    
+    
+      
+        <title>onboard - My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.db9e7362.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffa724">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#onboard" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              onboard
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        bitcoin-doc
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code/" class="md-nav__link">
+        code
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          onboard
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        onboard
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wallet-choice" class="md-nav__link">
+    Wallet choice
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-the-wallet" class="md-nav__link">
+    Install the wallet
+  </a>
+  
+    <nav class="md-nav" aria-label="Install the wallet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#android" class="md-nav__link">
+    android
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iphone" class="md-nav__link">
+    iPhone
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-the-wallet-app" class="md-nav__link">
+    Start the wallet app
+  </a>
+  
+    <nav class="md-nav" aria-label="Start the wallet app">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#on-storing-seed-words-the-12-words-you-wrote-down-earlier" class="md-nav__link">
+    On storing seed words (the 12 words you wrote down earlier)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#receive-your-first-bitcoin" class="md-nav__link">
+    Receive your first bitcoin
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wallet-choice" class="md-nav__link">
+    Wallet choice
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-the-wallet" class="md-nav__link">
+    Install the wallet
+  </a>
+  
+    <nav class="md-nav" aria-label="Install the wallet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#android" class="md-nav__link">
+    android
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iphone" class="md-nav__link">
+    iPhone
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-the-wallet-app" class="md-nav__link">
+    Start the wallet app
+  </a>
+  
+    <nav class="md-nav" aria-label="Start the wallet app">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#on-storing-seed-words-the-12-words-you-wrote-down-earlier" class="md-nav__link">
+    On storing seed words (the 12 words you wrote down earlier)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#receive-your-first-bitcoin" class="md-nav__link">
+    Receive your first bitcoin
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="onboard">onboard</h1>
+<p>The purpose of this page is to help any newcomer get setup with a bitcoin wallet. Before we start, here are a few assumptions we are making :</p>
+<ul>
+<li>you have access to a smartphone</li>
+<li>you want to install "<a href="https://bluewallet.io/">BlueWallet</a>"</li>
+</ul>
+<h2 id="wallet-choice">Wallet choice</h2>
+<p>We decided to write this guide with <a href="https://bluewallet.io/">BlueWallet</a> in mind as we believe it to be the easiest wallet to get you onboarded. More guides involving other wallets might become available later (pull requests welcome).</p>
+<h2 id="install-the-wallet">Install the wallet</h2>
+<h3 id="android">android</h3>
+<pre><code>TODO : better android support
+</code></pre>
+<ol>
+<li>Open android's appstore.</li>
+<li>Search for "blue wallet".</li>
+<li>Install the app.</li>
+</ol>
+<h3 id="iphone">iPhone</h3>
+<ol>
+<li>Open apple's appstore.</li>
+<li>Hit the search button (usually on the bottom right) and type "blue wallet".<ul>
+<li>Optionally, click the following link <a href="https://itunes.apple.com/app/bluewallet-bitcoin-wallet/id1376878040">which will bring you to BlueWallet directly</a>. <img alt="" src="assets/IMG_5308.PNG" />
+<strong>Only install <a href="https://bluewallet.io/">BlueWallet</a>. Not something that looks like BlueWallet. Not CyanWallet. Not TheOneAndOnlyBlueWallet. <em>BlueWallet</em>. Beware of malicious apps.</strong></li>
+</ul>
+</li>
+</ol>
+<h2 id="start-the-wallet-app">Start the wallet app</h2>
+<ol>
+<li>Open <a href="https://bluewallet.io/">BlueWallet</a> and click on "Add now" (this only shows up when you don't already have a wallet setup). <img alt="" src="../assets/IMG_5304.PNG" /><ul>
+<li>If for some reason the "Add now" button is not available, click on the "+" icon in the top right corner.</li>
+</ul>
+</li>
+<li>Enter a name for the wallet. Name it something relevant like "savings" (remember, <a href="https://twitter.com/BitcoinIsSaving">bitcoin is a savings technology :)</a>)</li>
+<li>For the type of account, select "Bitcoin".</li>
+<li>Click on "Create".</li>
+<li>Upon clicking create, you will be presented with 12 words (seed words). Save those in a safe place (see below for warnings regarding adequately storing a bitcoin private key). <img alt="" src="../assets/IMG_5305.PNG" /></li>
+</ol>
+<p>Congratulations! You are now the proud owner of a bitcoin wallet/account and can start transacting on the Bitcoin network</p>
+<h3 id="on-storing-seed-words-the-12-words-you-wrote-down-earlier">On storing seed words (the 12 words you wrote down earlier)</h3>
+<p>Think of these words as the <strong>ONLY</strong> "key" that can open your bitcoin "safe deposit box". If you lose them, you lose access to your bitcoin. If you share them (or they get stolen somehow), that person now has access to your bitcoin. The amount of energy you put into securing this key should be equivalent to the value that you store in your wallet (e.g. it's ok to save these on dropbox if you only put a few bucks on there to play with but if you are putting a few hundred dollars worth of bitcoin on there, you might want to think a bit more about how to properly secure your key. However, this is outside the scope of this article.</p>
+<pre><code>TODO : add documentation regarding storing a bitcoin private key
+</code></pre>
+<h2 id="receive-your-first-bitcoin">Receive your first bitcoin</h2>
+<p>In order to fund your new wallet with bitcoins, you need to know someone who can send you some satoshis (the smallest bitcoin unit, 0.00000001 btc) or buy some sats from some bitcoin onramp. Here are a few recommandations :</p>
+<ul>
+<li><a href="https://shakepay.me/r/8SOJEYV">Shakepay</a> (Canada, easiest, uses my personal referral link to get you and me 10$ each)</li>
+<li><a href="https://bullbitcoin.com/">Bull Bitcoin</a> (Canada)</li>
+<li><a href="https://www.swanbitcoin.com/">Swan Bitcoin</a> (United States)</li>
+</ul>
+<p>Once you are ready to receive your first sats :</p>
+<ul>
+<li>Open the <a href="https://bluewallet.io/">BlueWallet</a> app.</li>
+<li>In <a href="https://bluewallet.io/">BlueWallet</a>, click on the wallet you just created. <img alt="" src="../assets/IMG_5306.PNG" /></li>
+<li>On the bottom, click on "receive".</li>
+<li>You will be presented with a QR code and a strange looking string (e.g. bc1hiuesijeiw...). The long string is your bitcoin address and the QR code is the visual representation of that same address. This address can be used by you or someone else trying to send you sats. Make sure you copy it and don't try to enter it manually, this is a bad idea. <img alt="" src="../assets/IMG_5307.PNG" /></li>
+<li>This next step will be different depending on which onramp you are using. In general, you need to enter an amount to send in btc (e.g. 0.001 btc or 100000 sats) and enter the destination address you copied earlier.</li>
+<li>You might also have to enter a fee. Ideally, a good fee will be pre-selected so use that for now.</li>
+<li>When ready, press send and in a matter of seconds, you should see the funds appear in your <a href="https://bluewallet.io/">BlueWallet</a> wallet.</li>
+</ul>
+<p>Congratulations! You have now received your first bitcoins.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../code/" class="md-footer__link md-footer__link--prev" aria-label="Previous: code" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              code
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://twitter.com/5ubstance" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://5ubstance.github.io/bitcoin-doc/assets/bitcoin.pdf" target="_blank" rel="noopener" title="5ubstance.github.io" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M310.204 242.638c27.73-14.18 45.377-39.39 41.28-81.3-5.358-57.351-52.458-76.573-114.85-81.929V0h-48.528v77.203c-12.605 0-25.525.315-38.444.63V0h-48.528v79.409c-17.842.539-38.622.276-97.37 0v51.678c38.314-.678 58.417-3.14 63.023 21.427v217.429c-2.925 19.492-18.524 16.685-53.255 16.071L3.765 443.68c88.481 0 97.37.315 97.37.315V512h48.528v-67.06c13.234.315 26.154.315 38.444.315V512h48.528v-68.005c81.299-4.412 135.647-24.894 142.895-101.467 5.671-61.446-23.32-88.862-69.326-99.89zM150.608 134.553c27.415 0 113.126-8.507 113.126 48.528 0 54.515-85.71 48.212-113.126 48.212v-96.74zm0 251.776V279.821c32.772 0 133.127-9.138 133.127 53.255-.001 60.186-100.355 53.253-133.127 53.253z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e84347e.min.js"></script>
+      
+    
+  </body>
+</html>
