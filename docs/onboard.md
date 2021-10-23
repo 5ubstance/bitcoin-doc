@@ -3,11 +3,11 @@
 The purpose of this page is to help any newcomer get setup with a bitcoin wallet. Before we start, here are a few assumptions we are making :
 
 - you have access to a smartphone
-- you want to install "Blue Wallet"
+- you want to install "BlueWallet"
 
 ## Wallet choice
 
-We decided to write this guide with Blue Wallet in mind as we believe it to be the easiest wallet to get you onboarded. More guides involving other wallets might become available later (pull requests welcome).
+We decided to write this guide with BlueWallet in mind as we believe it to be the easiest wallet to get you onboarded. More guides involving other wallets might become available later (pull requests welcome).
 
 ## Install the wallet
 
@@ -23,12 +23,12 @@ We decided to write this guide with Blue Wallet in mind as we believe it to be t
 
 1. Open apple's appstore.
 1. Hit the search button (usually on the bottom right) and type "blue wallet".
-    - Optionally, click the following link [which will bring you Blue Wallet directly](https://itunes.apple.com/app/bluewallet-bitcoin-wallet/id1376878040).
-1. **Only install Blue Wallet. Not something that looks like Blue Wallet. Not Cyan Wallet. Blue Wallet. Beware of malicious apps.**
+    - Optionally, click the following link [which will bring you to BlueWallet directly](https://itunes.apple.com/app/bluewallet-bitcoin-wallet/id1376878040). ![](assets/IMG_5308.PNG)
+1. **Only install BlueWallet. Not something that looks like BlueWallet. Not CyanWallet. Not TheOneAndOnlyBlueWallet. _BlueWallet_. Beware of malicious apps.**
 
 ## Start the wallet app
 
-1. Open Blue Wallet and click on "Add now" (this only shows up when you don't already have a wallet setup). ![](assets/IMG_5304.PNG)
+1. Open BlueWallet and click on "Add now" (this only shows up when you don't already have a wallet setup). ![](assets/IMG_5304.PNG)
     - If for some reason the "Add now" button is not available, click on the "+" icon in the top right corner.
 1. Enter a name for the wallet. Name it something relevant like "savings" (remember, [bitcoin is a savings technology :)](https://twitter.com/BitcoinIsSaving))
 1. For the type of account, select "Bitcoin".
@@ -52,12 +52,12 @@ In order to fund your new wallet with bitcoins, you need to know someone who can
 
 Once you are ready to receive your first sats :
 
-- Open the Blue Wallet app.
-- In Blue Wallet, click on the wallet you just created. ![](assets/IMG_5306.PNG)
+- Open the BlueWallet app.
+- In BlueWallet, click on the wallet you just created. ![](assets/IMG_5306.PNG)
 - On the bottom, click on "receive".
 - You will be presented with a QR code and a strange looking string (e.g. bc1hiuesijeiw...). The long string is your bitcoin address and the QR code is the visual representation of that same address. This address can be used by you or someone else trying to send you sats. Make sure you copy it and don't try to enter it manually, this is a bad idea. ![](assets/IMG_5307.PNG)
 - This next step will be different depending on which onramp you are using. In general, you need to enter an amount to send in btc (e.g. 0.001 btc or 100000 sats) and enter the destination address you copied earlier.
 - You might also have to enter a fee. Ideally, a good fee will be pre-selected so use that for now.
-- When ready, press send and in a matter of seconds, you should see the funds appear in your Blue Wallet wallet.
+- When ready, press send and in a matter of seconds, you should see the funds appear in your BlueWallet wallet.
 
 Congratulations! You have now received your first bitcoins.
